@@ -1,9 +1,11 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <h1>Your NFT project goes here</h1>
+      <Nav />
     </div>
   );
 }
