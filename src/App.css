@@ -5,7 +5,5 @@
 /* NAV */
 
 .nav {
-  border-bottom: 1px solid black;
-  position: sticky;
-  top: 0;
+  border-bottom: 2px solid black;
 }
