@@ -1,18 +1,16 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Button } from "react-bootstrap";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navigation() {
   return (
     <div>
       <Navbar className='nav' fixed='top'>
         <Container>
-          <Nav className="me-auto">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#testimonials">Testimonials</Nav.Link>
-          </Nav>
-          <Navbar.Brand href="#home">Daemon Development</Navbar.Brand>
+          <GiHamburgerMenu className='nav-burger'/>
+          <Button variant='dark'>Contact</Button>
         </Container>
       </Navbar>
     </div>
