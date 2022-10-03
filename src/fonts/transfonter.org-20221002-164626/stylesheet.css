@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Earth Orbiter';
+    src: url('/daemon-development/src/fontsEarthOrbiter.woff2') format('woff2'),
+        url('EarthOrbiter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -3,12 +3,12 @@ import Image from "react-bootstrap/Image";
 
 function Intro() {
     return (
-      <div className='intro'>
+      <div className='intro component'>
         <Container>
             <div className="intro-content">
-                <h1>Daemon Development</h1>
+                <h1 className="glow">Daemon Development</h1>
                 <h2>Servicing the entrepreneurial spirit</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus molestie massa, quis commodo felis aliquam sed. Nullam pretium nulla vitae nisl porta semper. Nulla a blandit massa. Donec accumsan.</p>
+                <p>Affordable web design, web development, copywriting, and SEO.</p>
             </div>
         </Container>
       </div>
