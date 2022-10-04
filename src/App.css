@@ -38,11 +38,18 @@ button.btn {
   margin-bottom: 0;
 }
 
+.section-header {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px rgb(232, 227, 227) solid;
+}
+
 
 /* NAV */
 
 .nav {
   border-bottom: 2px solid black;
+  background-color: #fff;
 }
 
 .nav-burger {
@@ -53,7 +60,6 @@ button.btn {
 
 .intro {
   margin-top: 3.4em;
-  
 }
 
 .intro-content {
@@ -62,7 +68,7 @@ button.btn {
 }
 
 .glow {
-  color: #fff;
+  color: rgb(0, 255, 247);
   /* -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate; */
@@ -90,9 +96,18 @@ button.btn {
 /* PROJECTS */
 
 .projects {
-  border: 1px solid black;
+  
 }
 
 .projects h2 {
   text-align: center;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-buttons .btn {
+  width: 6em;
 }
