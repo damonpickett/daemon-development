@@ -22,7 +22,7 @@ h1 {
   font-family: 'Earth Orbiter';
 }
 
-h2 {
+h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -36,6 +36,10 @@ button.btn {
   padding-bottom: 25px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.component h2 {
+  text-align: center;
 }
 
 .section-header {
@@ -103,8 +107,8 @@ button.btn {
   margin-bottom: 1.5em;
 }
 
-.projects h2 {
-  text-align: center;
+.card-title {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .card-buttons {
@@ -114,5 +118,37 @@ button.btn {
 
 .card-buttons .btn {
   width: 6em;
+}
+
+/* CTA */
+
+.CTA {
+  background: #9B9B9B;
+  text-align: center;
+}
+
+.CTA-content h3 {
+  color: white;
+  font-style: italic;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.CTA-content .btn {
+  font-size: 1.2em;
+}
+
+/* ABOUT */
+
+.about-content {
+  text-align: center;
+}
+
+.about-content img {
+  margin-bottom: 1em;
+}
+
+.about-content p {
+  text-align: left;
 }
 
