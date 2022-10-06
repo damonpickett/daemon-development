@@ -11,7 +11,33 @@ function Projects() {
         <Container>
             <h2 className='section-header'>Projects</h2>
             <Row>
-                <Col>
+                <Col className='projects-col'>
+                    <Card border='dark' style={{ width: '16rem'}}>
+                        <Card.Body>
+                            <Card.Title style={{ marginBottom: '20px'}}>Sea Weasel</Card.Title>
+                            <Card.Img src={seaweasel} style={{ marginBottom: '20px'}}/>
+                            <Card.Text>Sea Weasel is a punk rock, nautical clothing line. This landing page collects users' emails who want to be notified of product releases.</Card.Text>
+                            <div className='card-buttons'>
+                                <Button variant='dark'>Site</Button>
+                                <Button variant='dark'>Code</Button>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className='projects-col'>
+                    <Card border='dark' style={{ width: '16rem'}}>
+                        <Card.Body>
+                            <Card.Title style={{ marginBottom: '20px'}}>Sea Weasel</Card.Title>
+                            <Card.Img src={seaweasel} style={{ marginBottom: '20px'}}/>
+                            <Card.Text>Sea Weasel is a punk rock, nautical clothing line. This landing page collects users' emails who want to be notified of product releases.</Card.Text>
+                            <div className='card-buttons'>
+                                <Button variant='dark'>Site</Button>
+                                <Button variant='dark'>Code</Button>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className='projects-col'>
                     <Card border='dark' style={{ width: '16rem'}}>
                         <Card.Body>
                             <Card.Title style={{ marginBottom: '20px'}}>Sea Weasel</Card.Title>

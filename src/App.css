@@ -99,6 +99,10 @@ button.btn {
   
 }
 
+.projects-col {
+  margin-bottom: 1.5em;
+}
+
 .projects h2 {
   text-align: center;
 }
@@ -111,3 +115,4 @@ button.btn {
 .card-buttons .btn {
   width: 6em;
 }
+
