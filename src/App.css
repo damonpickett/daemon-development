@@ -26,6 +26,10 @@ h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 button.btn {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -97,11 +101,56 @@ button.btn {
   font-size: 0.8em;
 }
 
-/* PROJECTS */
+/* BURGER MENU */
 
-.projects {
+#burger-menu {
+  background-color: white;
+  transition: transform 0.4s;
+  transform: translateX(-100hw, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40vw;
+  height: 100vh;
+  display: block;
+  z-index: 1031;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 0 15px;
+}
+
+#burger-menu.hide {
+  transform: translate3d(-40vw, 0, 0);
+}
+
+#burger-menu.show {
+  transform: translate3d(-0vw, 0, 0);
+}
+
+.close-button {
+  text-align: right;
+  padding: 1em 1em 0 0;
+}
+
+.burger-menu-list {
+  list-style-type: none;
+  text-align: right;
+  padding-top: 1em;
+  padding-left: 0;
+  padding-right: 1em;
   
 }
+
+.burger-menu-list li {
+  margin-bottom: 0.8em;
+
+}
+
+.burger-menu-list li a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* PROJECTS */
 
 .projects-col {
   margin-bottom: 1.5em;
@@ -150,5 +199,17 @@ button.btn {
 
 .about-content p {
   text-align: left;
+}
+
+/* SOCIAL */
+
+.social {
+  background: #2E2E2E;
+  color: white;
+  font-size: 2.5em;
+}
+
+.social-stack {
+  justify-content: space-evenly;
 }
 

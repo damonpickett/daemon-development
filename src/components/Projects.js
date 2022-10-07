@@ -52,6 +52,7 @@ function Projects() {
                 </Col>
             </Row>
         </Container>
+        <div id='contact'></div>
       </div>
     );
   }

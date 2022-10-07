@@ -4,12 +4,12 @@ import Navbar from "react-bootstrap/Navbar";
 import { Button } from "react-bootstrap";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-function Navigation() {
+function Navigation(props) {
   return (
     <div>
       <Navbar className='nav' fixed='top'>
         <Container>
-          <GiHamburgerMenu className='nav-burger'/>
+          <GiHamburgerMenu className='nav-burger' onClick={() => props.setMenu(true)} />
           <Button variant='dark'>Contact</Button>
         </Container>
       </Navbar>

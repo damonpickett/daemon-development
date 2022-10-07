@@ -9,6 +9,7 @@ function CTA() {
                 <Button variant='dark'>Contact</Button>
             </div>
         </Container>
+        <div id='about'></div>
       </div>
     );
   }
