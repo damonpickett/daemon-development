@@ -52,7 +52,6 @@ button.btn {
   border-bottom: 1px rgb(232, 227, 227) solid;
 }
 
-
 /* NAV */
 
 .nav {
@@ -66,8 +65,14 @@ button.btn {
 
 /* INTRO */
 
+#home {
+  position: absolute;
+  top: -5em;
+}
+
 .intro {
   margin-top: 3.4em;
+  position: relative;
 }
 
 .intro-content {
