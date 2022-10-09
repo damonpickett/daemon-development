@@ -63,49 +63,6 @@ button.btn {
   font-size: 2em;
 }
 
-/* INTRO */
-
-#home {
-  position: absolute;
-  top: -5em;
-}
-
-.intro {
-  margin-top: 3.4em;
-  position: relative;
-}
-
-.intro-content {
-  text-align: left;
-  top: 3em;
-}
-
-.glow {
-  color: rgb(0, 255, 247);
-  /* -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate; */
-  text-shadow: 0 0 10px aqua, 0 0 10px aqua, 0 0 10px #004dc0, 0 0 10px #004dc0, 0 0 10px #004dc0, 0 0 10px #004dc0, 0 0 10px #004dc0;
-}
-
-/* @keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #004dc0, 0 0 40px #004dc0, 0 0 50px #004dc0, 0 0 60px #004dc0, 0 0 70px #004dc0;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #5fbcf6, 0 0 40px #5fbcf6, 0 0 50px #5fbcf6, 0 0 60px #5fbcf6, 0 0 70px #5fbcf6, 0 0 80px #ff4da6;
-  }
-} */
-
-.intro-content h2 {
-  color: #F930E5;
-  font-size: 0.9em;
-}
-
-.intro-content p {
-  font-size: 0.8em;
-}
-
 /* BURGER MENU */
 
 #burger-menu {
@@ -153,6 +110,63 @@ button.btn {
   text-decoration: none;
   color: inherit;
   font-family: 'Montserrat', sans-serif;
+}
+
+/* CONTACT MODAL */
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* INTRO */
+
+#home {
+  position: absolute;
+  top: -5em;
+}
+
+.intro {
+  margin-top: 3.4em;
+  position: relative;
+}
+
+.intro-content {
+  text-align: left;
+  top: 3em;
+}
+
+.glow {
+  color: rgb(0, 255, 247);
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; */
+  text-shadow: 0 0 10px aqua, 0 0 10px aqua, 0 0 10px #004dc0, 0 0 10px #004dc0, 0 0 10px #004dc0, 0 0 10px #004dc0, 0 0 10px #004dc0;
+}
+
+/* @keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #004dc0, 0 0 40px #004dc0, 0 0 50px #004dc0, 0 0 60px #004dc0, 0 0 70px #004dc0;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #5fbcf6, 0 0 40px #5fbcf6, 0 0 50px #5fbcf6, 0 0 60px #5fbcf6, 0 0 70px #5fbcf6, 0 0 80px #ff4da6;
+  }
+} */
+
+.intro-content h2 {
+  color: #F930E5;
+  font-size: 0.9em;
+}
+
+.intro-content p {
+  font-size: 0.8em;
 }
 
 /* PROJECTS */

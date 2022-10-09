@@ -10,7 +10,7 @@ function Navigation(props) {
       <Navbar className='nav' fixed='top'>
         <Container>
           <GiHamburgerMenu className='nav-burger' onClick={() => props.setMenu(true)} />
-          <Button variant='dark'>Contact</Button>
+          <Button variant='dark' type='button' as='button' onClick={console.log('click')}>Contact</Button>
         </Container>
       </Navbar>
     </div>
