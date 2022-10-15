@@ -5,7 +5,7 @@ function CTA() {
       <div className='CTA component'>
         <Container>
             <div className="CTA-content">
-                <h3>Contact Daemon Development for a free consultation</h3>
+                <h3>Contact Solidus Development for a free consultation</h3>
                 <Button variant='dark'>Contact</Button>
             </div>
         </Container>
