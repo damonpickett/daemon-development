@@ -40,7 +40,7 @@ function Projects() {
                 <Col className='projects-col'>
                     <Card border='dark' style={{ width: '16rem'}}>
                         <Card.Body>
-                            <Card.Title style={{ marginBottom: '20px'}}>Sea Weasel</Card.Title>
+                            <Card.Title style={{ marginBottom: '20px'}}>The Whitsteen Project</Card.Title>
                             <Card.Img src={seaweasel} style={{ marginBottom: '20px'}}/>
                             <Card.Text>Sea Weasel is a punk rock, nautical clothing line. This landing page collects users' emails who want to be notified of product releases.</Card.Text>
                             <div className='card-buttons'>
