@@ -20,13 +20,14 @@ function App() {
   return (
     <div className="App">
       <Navigation setMenu={setMenu} setModal={setModal} />
-      <ContactModal modal={modal} setModal={setModal} />
+      
       <BurgerMenu menu={menu} setMenu={setMenu} />
       <Intro />
       <Projects />
       <CTA />
       <About />
       <Social />
+      <ContactModal modal={modal} setModal={setModal} />
     </div>
   );
 }
