@@ -24,7 +24,7 @@ function App() {
       <BurgerMenu menu={menu} setMenu={setMenu} />
       <Intro />
       <Projects />
-      <CTA />
+      <CTA setModal={setModal}/>
       <About />
       <Social />
       <ContactModal modal={modal} setModal={setModal} />
