@@ -6,13 +6,13 @@ const ContactModal = (props) => {
 
   return (
     <>
-      <Modal show={props.modal} onClick={() => props.setModal(false)} centered>
+      <Modal show={props.modal} centered>
         <Modal.Header closeButton>
           <Modal.Title>Contact</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className="contact-form">
-              <form action="https://formsubmit.co/damon.pickett@gmail.com" method="POST">
+              <form action="https://formsubmit.co/damon@solidusdevelopment.com" method="POST">
                   <input type="text" name="name" placeholder="Your name" />
                   <input type="text" name="company" placeholder="Your company" />
                   <input type="email" name="email" placeholder="Your email address" required />
