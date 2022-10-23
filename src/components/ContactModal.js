@@ -1,14 +1,16 @@
 import CloseButton from "react-bootstrap/CloseButton";
 import Modal from "react-bootstrap/Modal";
 import Form from 'react-bootstrap/Form';
+import { Button } from "react-bootstrap";
 
 const ContactModal = (props) => {
 
   return (
     <>
       <Modal show={props.modal} centered>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title>Contact</Modal.Title>
+          <CloseButton onClick={() => props.setModal(false)}/>
         </Modal.Header>
         <Modal.Body>
           <div className="contact-form">
@@ -20,7 +22,7 @@ const ContactModal = (props) => {
                   <input type="hidden" name="_next" value="https://damonpickett.github.io/damonpickett/thankyou.html" />
                   <input type="hidden" name="_subject" value="New enquiry from portfolio site" />
                   <textarea name="message" rows="5" placeholder="How can I help you?"></textarea>
-                  <button className='form-button' type="submit">Send</button>
+                  <Button variant='dark' type='button'>Send</Button>
                   <p>Please feel free to connect with me on <a href='https://www.linkedin.com/in/damon-pickett/' target='_blank' rel='noreferrer'>Linkedin</a></p>
               </form>
           </div>

@@ -224,3 +224,13 @@ button.btn {
   justify-content: space-evenly;
 }
 
+.social-stack a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-stack a:visited {
+  text-decoration: none;
+  color: white;
+}
+
