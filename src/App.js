@@ -20,7 +20,6 @@ function App() {
   return (
     <div className="App">
       <Navigation setMenu={setMenu} setModal={setModal} />
-      
       <BurgerMenu menu={menu} setMenu={setMenu} />
       <Intro />
       <Projects />
