@@ -5,6 +5,7 @@ import Navigation from './components/Navigation';
 import BurgerMenu from './components/BurgerMenu';
 import ContactModal from './components/ContactModal';
 import Intro from './components/Intro';
+
 import Projects from './components/Projects';
 import CTA from './components/CTA';
 import About from './components/About';
