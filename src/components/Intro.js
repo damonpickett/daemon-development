@@ -12,7 +12,6 @@ function Intro() {
                 <p>Affordable web design, web development, copywriting, and SEO.</p>
             </div>
         </Container>
-        <div id="projects"></div>
       </div>
     );
   }
