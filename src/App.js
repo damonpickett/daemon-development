@@ -5,7 +5,7 @@ import Navigation from './components/Navigation';
 import BurgerMenu from './components/BurgerMenu';
 import ContactModal from './components/ContactModal';
 import Intro from './components/Intro';
-
+import Value from './components/Value';
 import Projects from './components/Projects';
 import CTA from './components/CTA';
 import About from './components/About';
@@ -23,6 +23,7 @@ function App() {
       <Navigation setMenu={setMenu} setModal={setModal} />
       <BurgerMenu menu={menu} setMenu={setMenu} />
       <Intro />
+      <Value />
       <Projects />
       <CTA setModal={setModal}/>
       <About />
