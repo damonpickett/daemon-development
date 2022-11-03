@@ -12,21 +12,21 @@ function Value() {
             <h2 className="section-header">Why Solidus?</h2>
             <Row>
                 <Col sm={12} md={6} lg={3}>
-                    <div className='value-card'>
+                    <div className='value-card' style={{ marginBottom: '2.5em'}}>
                         <h3 className="blue">Design</h3>
                         <Image src={design} fluid />
                         <p>Websites designed to accentuate your value proposition</p>
                     </div>
                 </Col>
                 <Col sm={12} md={6} lg={3}>
-                    <div className='value-card'>
+                    <div className='value-card' style={{ marginBottom: '2.5em'}}>
                         <h3 className="pink">Development</h3>
                         <Image src={development} fluid />
                         <p>Websites coded from scratch to exhibit your brand exactly</p>
                     </div>
                 </Col>
                 <Col sm={12} md={6} lg={3}>
-                    <div className='value-card'>
+                    <div className='value-card' style={{ marginBottom: '2.5em'}}>
                         <h3 className="gold">Copywriting</h3>
                         <Image src={copy} fluid />
                         <p>Copy that speaks to your users wants so they know they’re in good hands</p>

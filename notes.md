@@ -1,0 +1,1 @@
+The Whitsteen Project is a mock NFT project to showcase the artwork of Whitsteen. This app records transactions on the Ethereum testnet.
