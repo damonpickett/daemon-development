@@ -22,7 +22,7 @@ function Value() {
                     <div className='value-card' style={{ marginBottom: '2.5em'}}>
                         <h3 className="pink">Development</h3>
                         <Image src={development} fluid />
-                        <p>Websites coded from scratch to exhibit your brand exactly</p>
+                        <p>Responsive and performative websites so your audience can view your content on any screen with no hiccups</p>
                     </div>
                 </Col>
                 <Col sm={12} md={6} lg={3}>
