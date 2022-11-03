@@ -15,7 +15,7 @@ function Value() {
                     <div className='value-card' style={{ marginBottom: '2.5em'}}>
                         <h3 className="blue">Design</h3>
                         <Image src={design} fluid />
-                        <p>Websites designed to accentuate your value proposition</p>
+                        <p>Simple, elegant designs so your users can easily find what they're looking for</p>
                     </div>
                 </Col>
                 <Col sm={12} md={6} lg={3}>
@@ -29,7 +29,7 @@ function Value() {
                     <div className='value-card' style={{ marginBottom: '2.5em'}}>
                         <h3 className="gold">Copywriting</h3>
                         <Image src={copy} fluid />
-                        <p>Copy that speaks to your users wants so they know they’re in good hands</p>
+                        <p>Copy that accentuates your value proposition</p>
                     </div>
                 </Col>
                 <Col sm={12} md={6} lg={3}>
