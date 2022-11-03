@@ -34,7 +34,7 @@ function Value() {
                 </Col>
                 <Col sm={12} md={6} lg={3}>
                     <div className='value-card'>
-                        <h3 className="blue">SEO</h3>
+                        <h3 className="green">SEO</h3>
                         <Image src={seo} fluid />
                         <p>Websites optimized for search results so more people see your value</p>
                     </div>

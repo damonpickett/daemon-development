@@ -180,6 +180,10 @@ button.btn {
   color: #F2DB0C;
 }
 
+.green {
+  color: rgb(8, 248, 8)
+}
+
 .value-card img {
   width: 50%;
   margin-bottom: 1.2em;
