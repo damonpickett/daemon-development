@@ -25,8 +25,9 @@ function App() {
       <Intro />
       <Value />
       <Projects />
+      <Testimonials />
       <CTA setModal={setModal}/>
-      <About />
+      <About setModal={setModal}/>
       <Social />
       <ContactModal modal={modal} setModal={setModal} />
     </div>
