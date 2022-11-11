@@ -17,7 +17,6 @@ function BurgerMenu(props) {
         <ul className="burger-menu-list">
             <li><Link smooth to='#home'>Home</Link></li>
             <li><Link smooth to='#projects'>Projects</Link></li>
-            <li><Link smooth to='#contact'>Contact</Link></li>
             <li><Link smooth to='#about'>About</Link></li>
         </ul>
         

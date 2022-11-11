@@ -133,9 +133,16 @@ button.btn {
 
 /* CONTACT MODAL */
 
-.contact-form input, .contact-form textarea, .contact-form button {
-  margin-bottom: 1em;
+.modal-header h4 {
+  text-align: center;
 }
+
+.contact-form input, .contact-form textarea, .contact-form button {
+  display: block;
+  margin: 0 auto 1em;
+}
+
+
 
 /* INTRO */
 
@@ -294,6 +301,11 @@ button.btn {
   .nav-menu-list {
     display: block;
   }
+
+  .modal-header h4 {
+    text-align: center;
+  }
+  
 }
 
 

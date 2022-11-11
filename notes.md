@@ -7,3 +7,8 @@
 - Copywriting icon: <a href="https://www.flaticon.com/free-icons/copywriting" title="copywriting icons">Copywriting icons created by Freepik - Flaticon</a>
 
 - SEO icon: <a href="https://www.flaticon.com/free-icons/marketing" title="marketing icons">Marketing icons created by monkik - Flaticon</a>
+
+
+
+
+
